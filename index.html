@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paulo H. Averbeck</title>
+    <link rel="icon" href="phLogo.png" type="image/png" sizes="16x16"> <!-- Logo do Website -->
+    <!--    Bootstrap Link    -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css"> <!-- Link para página de estilos CSS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"> <!-- Link da fonte Odibee Sans pelo Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"> <!-- Link livraria de ícones bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Link livraria para ícone download, via w3schools -->
+    <script src="script.js"></script> <!-- Link para JavaScript -->
+</head>
+<body>
+  <!-- Barra de navegação via bootstrap -->
+    <div class="topnav" id="myTopnav">
+      <a id="logo" class="active" href="#"><img src='phLogo.png' onmouseover="this.src='phLogo2.png';" onmouseout="this.src='phLogo.png';" alt="Logo" width="70px" height="70px"></a>
+      <div class="sections">
+        <a href="#sobre" onclick="closeNavbar()">Sobre</a>
+        <a href="#curriculum " onclick="closeNavbar()">Curriculum</a>
+        <a href="#contato" onclick="closeNavbar()">Contato</a>
+      </div>
+      <div class="socials">
+        <a href="https://github.com/pHaverbeck" target="_blank"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/paulo-henrique-averbeck/" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.instagram.com/phaverbeck/" target="_blank"><i class="bi bi-instagram"></i></a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+  <!-- Seção sobre --> 
+    <div id="sobre">
+      <div class="container">
+        <img id="fotoPaulo" src="steam3.jpg" alt="Foto de Paulo H">
+        <h1>Paulo Henrique Averbeck</h1>
+        <p>Engenheiro Eletricista, 31 anos, estudante de Análise e Desenvolvimento de Sistemas.</p>
+        <p class="dischard">Graduação Superior em Engenharia de Produção Elétrica, com 7 anos de experiência na área Elétrica, de Controle e Instrumentação para fabricação de equipamentos, testes de validação, testes de aceitação em fábrica, revisões de documentos e desenhos técnicos, inspeções em campo, comissionamento e coordenação de pessoas.</p>
+        <p class="dischard">Iniciante em programação; noções básicas de POO, Engenharia de Requisitos, Bancos de Dados. Projetos escolares em Python, C e C#. Atualmente estudando HTML, CSS e JavaScript.</p>
+    </div>
+    </div>
+      
+  
+  <!-- Seção curriculum -->
+    <div class="container">
+      <div id="curriculum">
+        <div class="jobs">
+          <img class="rounded float-start"src="pampaPowerplant2.jpg" alt="Usina de UTE Pampa Sul em construção">
+          <h2>Eng. Eletricista</h2>
+          <p class="jobspar"> <em>2017 – 2020</em>	Atuando com Instrumentação e Controle para a empresa ENGIE, na Usina Termelétrica Pampa Sul, em <em>Candiota - RS - Brasil</em>.</p>
+          <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3403.7436418921097!2d-53.78030364832267!3d-31.448723781302245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9505f2e42f15383b%3A0x251a9a37ea665f0f!2sUsina%20Termoeletrica%20Pampa%20Sul!5e0!3m2!1spt-BR!2sbr!4v1624916558765!5m2!1spt-BR!2sbr" max-width="250" max-height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="jobs">
+          <img class="rounded float-end"src="chinaPowerplant.jpg" alt="Visita à Usina na China">
+          <h2>Eng. Eletricista</h2>
+          <p class="jobsparend"><em>2015 - 2017</em>  Atuando com Controle de Qualidade (QA/AC) para a empresa ENGIE, em todo o território da China, mas com sede em <em>Jinan - China</em>.</p>
+          <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d409769.8107214948!2d116.74825503065091!3d36.64259170460674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35c205b91dacea13%3A0x613050963dce4854!2sJinan%2C%20Shandong%2C%20China!5e0!3m2!1spt-BR!2sbr!4v1624916652106!5m2!1spt-BR!2sbr" max-width="250" max-height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="jobs">
+          <img class="rounded float-start"src="painel2.jpg" alt="Painel Elétrico">
+          <h2>Eng. Eletricista</h2>
+          <p class="jobspar"><em>2013 - 2015</em>  Atuando com Testes e Comissionamento de painéis de controle de usinas geradoras de energia, para a empresa REIVAX, em diversas usinas do Brasil, mas com sede em <em>Florianópolis - SC - Brasil</em>.</p>
+          <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3536.7309935415765!2d-48.51340404837575!3d-27.570857982764583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527388e61fc49e1%3A0x9f02d5beb2f9c68e!2sReivax%20S%2FA%20Automa%C3%A7%C3%A3o%20e%20Controle!5e0!3m2!1spt-BR!2sbr!4v1624916780334!5m2!1spt-BR!2sbr" max-width="250" max-height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <br>
+        <br>
+        <br>
+    </div>
+    </div>
+
+  <!-- Seção contato, footer via bootstrap -->
+    <footer>
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-sm-4" id="download">
+            <h3>Curriculum Vitae</h3>
+            <a href="CV-Paulo-H-Averbeck-2021 - Portugues.pdf" target="_blank" download="CV-Paulo-H-Averbeck-2021"><button class="btn"><i class="fa fa-download"></i>  Download</button></a>
+          </div>
+          <div class="col-sm-4">
+            <img class="img-fluid" src="duck.jpg" alt="Pato com flor de chapéu">
+          </div>
+          <div class="col-sm-4">
+            <div id="contato">
+              <h3>Contato:</h3>
+                <a href="mailto:phavr@hotmail.com"><i class="bi bi-envelope" ></i></a>
+                <a href="https://wa.me/5548999634141" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://github.com/pHaverbeck" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/paulo-henrique-averbeck/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.instagram.com/phaverbeck/" target="_blank"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+</body>
+</html>

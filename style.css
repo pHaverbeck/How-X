@@ -1,0 +1,300 @@
+body {
+    background-color: rgb(24, 23, 23);
+    color: #04d0f7;
+    font-family: 'Odibee Sans', cursive, monospace; /* Used to enable scrolling */
+    background: linear-gradient(180deg, rgba(0,0,0,1) 15%, rgba(0,39,41,1) 30%, rgba(0,0,0,1) 65%);
+}
+
+
+a:hover {
+    color:gold;
+}
+
+
+
+/* Seção NavBar */
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+
+.topnav a {
+    float: center;
+    display: inline;
+    color: #04d0f7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.bi {
+    float: center;
+    text-align: center;
+    color: #04d0f7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.bi:hover {
+    color: gold;
+}
+
+#logo {
+    display: inline;
+    float: left;
+    padding-right: 80px;
+    padding-left: 40px;
+}
+
+.socials {
+    display: inline;
+    float: right;
+    margin-top: 20px;
+}
+
+.sections {
+    display: inline-block;
+    margin-left: 80px ;
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 1100px), (max-width: 1700px) {
+.sections a {
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: padding 0.5s ease;
+}
+}
+
+@media screen and (min-width: 1700px) {
+.sections a {
+    padding-left: 150px;
+    padding-right: 150px;
+    transition: padding 0.5s ease;
+}
+}
+
+.topnav a:hover {
+    color: gold;
+}
+
+.topnav a.active {
+    color: gold;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 1100px) {
+    .topnav a {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+    .dischard {display: none}
+  }
+
+@media screen and (max-width: 1100px) {
+.topnav.responsive {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.topnav.responsive a {
+    float: right;
+    display: block;
+    text-align: left;
+}
+
+.socials {display: none}
+}
+
+/* Seção Sobre */
+#sobre {
+    color: snow;
+    padding-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+#fotoPaulo {
+    border-radius: 50%;
+    border-width: 3px;
+    border-color: #04d0f7;
+    border-style: solid;
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    max-height:600px;
+    margin-top: 10%;
+}
+
+#fotoPaulo:hover {
+    border-radius: 50%;
+    border-width: 3px;
+    border-color: gold;
+    border-style: solid;
+}
+
+@media screen and (max-width: 1100px) {
+#fotoPaulo {
+    margin-top: 40%;
+    width: 70%;
+    height: 70%;
+}
+}
+
+
+/* Geral paragrafos */
+h1 {
+    color:gold;
+    text-shadow: 2px 2px black;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+h2 {
+    color:gold;
+    text-shadow: 2px 2px black;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+    font-family: monospace;
+    margin-left: 1px;
+    margin-right: 1px;
+    text-align: justify;
+}
+
+p em {
+    color:#04d0f7;
+    text-shadow: 2px 2px black;
+}
+
+/* Seção Curriculum */
+#curriculum {
+    border: #04d0f7;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+/* Paragrafos para seção Curriculum */
+p.jobspar {
+    font-size: 20px;
+    font-family: monospace;
+    text-align:center;    
+}
+
+p.jobsparend {
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+}
+
+
+/* Fotos seção Curriculum */
+.rounded {
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    max-height: 400px;
+    border: #04d0f7;
+    border-width: 2px;
+    border-style: solid;
+    }
+
+.rounded:hover{
+    border:gold;
+    border-width: 2px;
+    border-style: solid;
+}
+
+@media screen and (max-width: 1100px) {
+.maps {
+    width: 70%;
+    height: 70%;
+}    
+
+h2 {
+    font-size: 25px;
+}
+
+p.jobspar, p.jobsparend {
+    text-align:justify;
+    font-size:15px;
+}
+
+}
+
+/* Styling título do cargo seção Curriculum */
+.jobs {
+    padding:5%;
+    color: snow;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    
+}
+
+/* Seção Footer */
+footer{
+    background-color: black; 
+    text-align: center;
+}
+
+/* Botão da seção Footer */
+.btn {
+    background-color: #04d0f7;
+    border: none;
+    color: snow;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: gold;
+    color: black;
+}
+
+#download {
+    text-align: center;
+    padding: 1%;
+}
+
+#contato {
+    text-align: center;
+    padding: 1%;
+}
+
+/* Foto do Pato */
+.img-fluid {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
