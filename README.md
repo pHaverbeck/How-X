@@ -1,9 +1,8 @@
-# HOW_II_PHA
+# HOW_X_PHA
 
-Diretório de publicação do Hands On Work II
+Diretório de publicação do Hands On Work X
 
-Objetivo: Website de portfólio pessoal
+Objetivo: Website para Agendamento de consultas
 
 Status: Parcial/Em construção
 
-https://phaverbeck.github.io/HOW_II_PHA/
