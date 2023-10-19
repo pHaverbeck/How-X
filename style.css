@@ -170,7 +170,7 @@ h1 {
 }
 
 h2 {
-    color:gold;
+    color:black;
     text-shadow: 2px 2px black;
     font-size: 30px;
     font-family: monospace;
@@ -193,7 +193,7 @@ p em {
     text-shadow: 2px 2px black;
 }
 
-/* Seção Curriculum */
+/* Seção Agenda */
 #curriculum {
     border: #04d0f7;
     border-width: 2px;
@@ -203,7 +203,7 @@ p em {
     margin-top: 10%;
 }
 
-/* Paragrafos para seção Curriculum */
+/* Paragrafos para seção Agenda */
 p.jobspar {
     font-size: 20px;
     font-family: monospace;
@@ -217,7 +217,7 @@ p.jobsparend {
 }
 
 
-/* Fotos seção Curriculum */
+/* Fotos seção Agenda */
 .rounded {
     width: 100%;
     height: 100%;
@@ -267,6 +267,7 @@ footer{
     text-align: center;
 }
 
+
 /* Botão da seção Footer */
 .btn {
     background-color: #04d0f7;
@@ -290,11 +291,4 @@ footer{
 #contato {
     text-align: center;
     padding: 1%;
-}
-
-/* Foto do Pato */
-.img-fluid {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
 }
