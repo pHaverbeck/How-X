@@ -2,7 +2,7 @@ body {
     background-color: rgb(24, 23, 23);
     color: #04d0f7;
     font-family: 'Odibee Sans', cursive, monospace; /* Used to enable scrolling */
-    background: linear-gradient(180deg, rgba(0,0,0,1) 15%, rgba(0,39,41,1) 30%, rgba(0,0,0,1) 65%);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 15%, rgba(0,39,41,1) 50%, snow 65%);
 }
 
 
@@ -125,6 +125,7 @@ a:hover {
 /* Seção Sobre */
 #sobre {
     color: snow;
+    text-shadow: 2px 2px black;
     padding-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
@@ -170,7 +171,7 @@ h1 {
 }
 
 h2 {
-    color:black;
+    color:snow;
     text-shadow: 2px 2px black;
     font-size: 30px;
     font-family: monospace;
@@ -263,7 +264,7 @@ p.jobspar, p.jobsparend {
 
 /* Seção Footer */
 footer{
-    background-color: black; 
+    background-color: snow; 
     text-align: center;
 }
 
